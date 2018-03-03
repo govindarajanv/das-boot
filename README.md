@@ -1,2 +1,2 @@
 # das-boot
-PluralSight course by Dan Bunker
+Thanks to PluralSight course by Dan Bunker
