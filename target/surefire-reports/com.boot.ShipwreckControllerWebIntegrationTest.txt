@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.boot.ShipwreckControllerWebIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.233 s <<< FAILURE! - in com.boot.ShipwreckControllerWebIntegrationTest
+testListAll(com.boot.ShipwreckControllerWebIntegrationTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: jdbcUrl is required with driverClassName.
+Caused by: java.lang.IllegalArgumentException: jdbcUrl is required with driverClassName.
+
